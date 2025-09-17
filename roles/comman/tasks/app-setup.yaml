@@ -4,7 +4,7 @@ ansible.builtin.file:
 path: /app
 state: directory
 
-- name: create roboshop system userA
+- name: create roboshop system users
 ansible.builtin.user:
 name: roboshop
 shell: /sbin/nologin
